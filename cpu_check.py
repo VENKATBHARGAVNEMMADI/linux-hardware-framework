@@ -2,6 +2,8 @@ import json
 import os
 from pathlib import Path
 
+#check the cpu for testing
+
 
 def check_cpu():
     # Load validation requirements
