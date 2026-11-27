@@ -1,0 +1,28 @@
+{
+    "memory": {
+        "minimum_gib": 2.0
+    },
+    "cpu": {
+        "minimum_count": 4
+    },
+    "storage": {
+        "maximum_usage_percent": 90
+    },
+    "network": {
+        "interface": "eth0"
+    },
+    "dut": {
+        "mode": "simulated",
+        "serial": {
+            "port": "/dev/ttyUSB0",
+            "baud_rate": 115200,
+            "timeout": 2
+        }
+    },
+    "ssh": {
+        "enabled": true,
+        "host": "localhost",
+        "username": "zahazshaik1998",
+        "timeout": 5
+    }
+}
